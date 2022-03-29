@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/styles.css" type="text/css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+  <title>Frontend Mentor | IP Address Tracker</title>
+</head>
+<body>
+  <header>
+    <div class="title">
+      <h1 class="app_title">IP Address Tracker</h1>
+    </div>
+    <div class="searchBar">
+      <input class="ip_input" type="text" placeholder="Search for any IP address or domain">
+      <button class="search_button"><b>></b></button>
+    </div>
+    <div class="info_section">
+      <div class="ip info_wrapper">
+        <h2>IP ADDRESS</h1>
+        <h3 class="ip_address">-</h2>
+      </div>
+      <div class="location info_wrapper">
+        <h2>LOCATION</h1>
+        <h3 class="location_value">-</h2>
+      </div>
+      <div class="time_zone info_wrapper">
+        <h2>TIMEZONE</h1>
+        <h3 class="time_zone_value">-</h2>
+      </div>
+      <div class="isp info_wrapper">
+        <h2>ISP</h1>
+        <h3 class="isp_value">-</h2>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div id="map"></div>
+  </main>
+  <script src="./js/app.js"></script>
+</body>
+</html>

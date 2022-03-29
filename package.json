@@ -1,0 +1,24 @@
+{
+  "name": "ip-address-tracking-app",
+  "version": "1.0.0",
+  "description": "![Design preview for the IP address tracker coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashutosh102/DevTrack_IP"
+  },
+  "author": "Ashutosh Mohanty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ashutosh102/DevTrack_IP/issues"
+  },
+  "homepage": "https://github.com/Ashutosh102/DevTrack_IP",
+  "dependencies": {
+    "lite-server": "^2.6.1",
+    "node-fetch": "^2.6.1"
+  }
+}
